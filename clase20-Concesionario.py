@@ -49,6 +49,11 @@ class Cliente:
                 print(
                     f"{self.nombre} no tiene registrado el vehículo {vehiculo.marca} {vehiculo.modelo}"
                 )
+    
+    def vehiculoCliente(self):
+        print(f"los vehiculos comprados por el cliente {self.nombre} son:")
+        for vehiculo in self.vehiculosCliente:
+                print(f"Vehiculo {vehiculo.marca} - {vehiculo.modelo}")
 
 class Concesionario:
     def __init__(self):
@@ -64,7 +69,7 @@ class Concesionario:
         print(f"El Cliente {cliente.nombre} fue agregado al listado de clientes")
 
     def vehiculosDisponibles(self):
-        print(f"los vehiculos dispobibles son:")
+        print(f"los vehiculos disponibles son:")
         for vehiculo in self.vehiculos:
             if vehiculo.disponible:
                 print(f"Vehiculo {vehiculo.marca} - {vehiculo.modelo}")
@@ -74,22 +79,34 @@ class Concesionario:
 #Creamos vehiculo y cliente:
 v1 = Vehiculo(1, "Toyota", "Corolla", 85000000)
 v2 = Vehiculo(2, "Mazda", "3", 95000000)
+v3 = Vehiculo(3, "BYD", "2025", 125000000)
 c1 = Cliente(1,"Carlos")
+c2 = Cliente(2, "Mariana")
 
 concesionario = Concesionario()
 
 concesionario.adicionarVehiculo(v1)
 concesionario.adicionarVehiculo(v2)
+concesionario.adicionarVehiculo(v3)
 concesionario.adicionarCliente(c1)
+concesionario.adicionarCliente(c2)
 
 c1.compra(v1)
 c1.compra(v1)
+c1.vehiculoCliente()
+
+c2.compra(v1)
+c2.compra(v2)
+c2.vehiculoCliente()
 
 concesionario.vehiculosDisponibles()
 
 c1.devolver(v2)
 c1.devolver(v1)
 
+c2.devolver(v1)
+c2.devolver(v2)
+
 concesionario.vehiculosDisponibles()
 
-c1.compra(v1)
+c1.compra(v3)

@@ -69,7 +69,7 @@ lib.add_book(b1)
 lib.add_book(b2)
 lib.register_user(u1)
 
-lib.show_available_books()     # Muestra ambos
+lib.show_available_books()     # Muestra ambos lisbros disponibles
 
 u1.borrow_book(b1)             # Presta "Cien años de soledad"
 lib.show_available_books()     # Ya no debería salir b1, solo b2
