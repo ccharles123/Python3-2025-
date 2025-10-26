@@ -1,0 +1,58 @@
+[
+  {
+    "nombre": "Portátil",
+    "precio": 1200,
+    "cantidad": 4,
+    "marca": "Nombre de marca",
+    "categoría": "Electrónica",
+    "fecha_de_entrada": "01-05-2024"
+  },
+  {
+    "nombre": "Ratón",
+    "precio": 45,
+    "cantidad": 120,
+    "marca": "TechGear",
+    "categoría": "Accesorios",
+    "fecha_de_entrada": "02/10/2024"
+  },
+  {
+    "nombre": "Auriculares",
+    "precio": 150,
+    "cantidad": 25,
+    "marca": "SoundMax",
+    "categoría": "Audio",
+    "fecha_de_entrada": "15/03/2024"
+  },
+  {
+    "nombre": "Cargador inalámbrico",
+    "precio": 75,
+    "cantidad": 100,
+    "marca": "ChargeMaster",
+    "categoría": "Accesorios",
+    "fecha_de_entrada": "01-07-2024"
+  },
+  {
+    "nombre": "Cargador inalámbrico",
+    "precio": 75,
+    "cantidad": 100,
+    "marca": "ChargeMaster",
+    "categoría": "Accesorios",
+    "fecha_de_entrada": "01-07-2024"
+  },
+  {
+    "nombre": "Cargador inalámbrico",
+    "precio": 75,
+    "cantidad": 100,
+    "marca": "ChargeMaster",
+    "categoría": "Accesorios",
+    "fecha_de_entrada": "01-07-2024"
+  },
+  {
+    "nombre": "Cargador inalámbrico",
+    "precio": 75,
+    "cantidad": 100,
+    "marca": "ChargeMaster",
+    "categoría": "Accesorios",
+    "fecha_de_entrada": "01-07-2024"
+  }
+]

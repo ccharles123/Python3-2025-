@@ -10,6 +10,6 @@ new_product = {
 }
 
 with open('products.csv', mode='a', newline='') as file:
-    file.write('\n')
+    #file.write('\n')
     csv_write = csv.DictWriter(file, fieldnames = new_product.keys())
     csv_write.writerow(new_product)
