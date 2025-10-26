@@ -13,9 +13,8 @@
     file.write("\n\nBy ChatGPT")"""
 
 #Sobre escribir el texto, importante: Elimina todo y escribe solo lo que le estamos pasando:
-
-with open('caperucitaRoja.txt', 'w') as file:
-    file.write("\n\nBy ChatGPT")
+"""with open('caperucitaRoja.txt', 'w') as file:
+    file.write("\n\nBy ChatGPT")"""
 
 # RETO conteo de las lineas del cuento de caperucita
 """with open ('caperucitaRoja.txt', 'r') as file:
