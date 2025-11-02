@@ -1,58 +1,74 @@
 [
-  {
-    "nombre": "Portátil",
-    "precio": 1200,
-    "cantidad": 4,
-    "marca": "Nombre de marca",
-    "categoría": "Electrónica",
-    "fecha_de_entrada": "01-05-2024"
-  },
-  {
-    "nombre": "Ratón",
-    "precio": 45,
-    "cantidad": 120,
-    "marca": "TechGear",
-    "categoría": "Accesorios",
-    "fecha_de_entrada": "02/10/2024"
-  },
-  {
-    "nombre": "Auriculares",
-    "precio": 150,
-    "cantidad": 25,
-    "marca": "SoundMax",
-    "categoría": "Audio",
-    "fecha_de_entrada": "15/03/2024"
-  },
-  {
-    "nombre": "Cargador inalámbrico",
-    "precio": 75,
-    "cantidad": 100,
-    "marca": "ChargeMaster",
-    "categoría": "Accesorios",
-    "fecha_de_entrada": "01-07-2024"
-  },
-  {
-    "nombre": "Cargador inalámbrico",
-    "precio": 75,
-    "cantidad": 100,
-    "marca": "ChargeMaster",
-    "categoría": "Accesorios",
-    "fecha_de_entrada": "01-07-2024"
-  },
-  {
-    "nombre": "Cargador inalámbrico",
-    "precio": 75,
-    "cantidad": 100,
-    "marca": "ChargeMaster",
-    "categoría": "Accesorios",
-    "fecha_de_entrada": "01-07-2024"
-  },
-  {
-    "nombre": "Cargador inalámbrico",
-    "precio": 75,
-    "cantidad": 100,
-    "marca": "ChargeMaster",
-    "categoría": "Accesorios",
-    "fecha_de_entrada": "01-07-2024"
-  }
+    {
+        "name": "Laptop",
+        "price": 1200,
+        "quantity": 4,
+        "brand": "Brand Name",
+        "category": "Electronics",
+        "entry_date": "2024-05-01"
+    },
+    {
+        "name": "Mouse",
+        "price": 45,
+        "quantity": 120,
+        "brand": "TechGear",
+        "category": "Accessories",
+        "entry_date": "2024-10-02"
+    },
+    {
+        "name": "Headphones",
+        "price": 150,
+        "quantity": 25,
+        "brand": "SoundMax",
+        "category": "Audio",
+        "entry_date": "2024-03-15"
+    },
+    {
+        "name": "Wireless Charger",
+        "price": 75,
+        "quantity": 100,
+        "brand": "ChargeMaster",
+        "category": "Accessories",
+        "entry_date": "2024-07-01"
+    },
+    {
+        "name": "Wireless Charger",
+        "price": 75,
+        "quantity": 100,
+        "brand": "ChargeMaster",
+        "category": "Accessories",
+        "entry_date": "2024-07-01"
+    },
+    {
+        "name": "Wireless Charger",
+        "price": 75,
+        "quantity": 100,
+        "brand": "ChargeMaster",
+        "category": "Accessories",
+        "entry_date": "2024-07-01"
+    },
+    {
+        "name": "Wireless Charger",
+        "price": 75,
+        "quantity": 100,
+        "brand": "ChargeMaster",
+        "category": "Accessories",
+        "entry_date": "2024-07-01"
+    },
+    {
+        "name": "Wireless Charger",
+        "price": 75,
+        "quantity": 100,
+        "brand": "ChargeMaster",
+        "category": "Accessories",
+        "entry_date": "2024-07-04"
+    },
+    {
+        "name": "Wireless Charger",
+        "price": 75,
+        "quantity": 100,
+        "brand": "ChargeMaster",
+        "category": "Accesories",
+        "entry_date": "2024-07-04"
+    }
 ]
