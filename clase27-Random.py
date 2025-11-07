@@ -10,3 +10,8 @@ print(random_number)
 colors = ['Rojo', 'Azul', 'Verde']
 random_colors = random.choice(colors)
 print(random_colors)
+
+#varajar una lista de cartas:
+cards = ['as', 'Rey', 'Reina', 'Jack', '10']
+random.shuffle(cards)
+print(cards)
