@@ -15,6 +15,11 @@ print(calcular_promedio([1,2,3,4,5]))
 #Calcular el area:
 
 def calculate_area(base, height):
+    """
+    Calcula el Area de un Triangulo
+    """
+    #Multiplicamos la base por la altura y se divide entre 2
     return (base * height) / 2
+
 
 print(calculate_area(4,4))

@@ -1,3 +1,5 @@
+#Variable que no es local ni global (nonlocal)
+
 def outer_function():
     x = 'enclosing'
     def inner_Function():

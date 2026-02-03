@@ -12,3 +12,4 @@ def outer_function():
     print(x)
 outer_function()
 print(x)
+ 

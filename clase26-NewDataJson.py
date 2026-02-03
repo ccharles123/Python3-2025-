@@ -17,4 +17,4 @@ with open(file_path, mode='r') as file: #Abre el archivo products.json en modo l
 products.append(new_product) #Agrega el diccionario new_product al final de la lista products. Ahora la lista contiene todos los productos anteriores + el nuevo.
 
 with open(file_path, mode='w') as file: # Abre el archivo products.json en modo escritura ('w') —esto borra el contenido anterior del archivo.
-    products = json.dump(products, file, indent=4) #Luego usa json.dump() para guardar la lista products (que ya incluye el nuevo producto) nuevamente dentro del archivo en formato JSON. El parámetro indent=4 hace que el archivo quede bien formateado (con 4 espacios de sangría), facilitando su lectura.
+    json.dump(products, file, indent=4) #Luego usa json.dump() para guardar la lista products (que ya incluye el nuevo producto) nuevamente dentro del archivo en formato JSON. El parámetro indent=4 hace que el archivo quede bien formateado (con 4 espacios de sangría), facilitando su lectura.
