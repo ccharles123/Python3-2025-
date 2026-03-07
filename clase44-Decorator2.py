@@ -8,7 +8,7 @@ def check_access(func):
     return wrapper
 
 @check_access
-def delete_employee (employee):
+def delete_employee (admin):
     print(f"El empledo {employee['name']} ha sido eliminado")
 
 
@@ -17,10 +17,10 @@ admin = {
     'role': 'admin'
 }
 
-employee = {
-    'name': 'Ana', 
-    'role': 'employee'
-}
+#employee = {
+#    'name': 'Ana', 
+#    'role': 'employee'
+#}
 
 #delete_employee(admin)
 #delete_employee(employee)

@@ -71,5 +71,5 @@ ver_ventas()
 
 iniciar_preparacion()
 marcar_listo()
-entregar_pedido()
+entregar_pedido()   
 ver_ventas()
