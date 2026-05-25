@@ -7,7 +7,7 @@ class Estado(Enum):
     PREPARACION = 2
     LISTO = 3
     ENTREGADO = 4
-
+ 
 # 2️⃣ Estructuras
 cola = deque()
 ventas = defaultdict(int)

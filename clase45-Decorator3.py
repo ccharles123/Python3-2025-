@@ -37,3 +37,32 @@ employee = {
 }
 
 delete(admin)
+
+#Otro Ejemplo de un payaso que hace reir ninos, pero solo se rien si el payaso es gracioso.
+
+def check_gracioso(required_role):
+    def decorador2(func2):
+        def wrapper(payaso):
+            if payaso.get('smile') == required_role:
+                return func2(payaso)
+            else:
+                print(f'EL payaso {payaso['name']} no hizo reir a los ninos. Solo los payasos {required_role} pueden hacer reir')
+        return wrapper
+    return decorador2
+
+
+
+@check_gracioso('payaso')
+#@log_action
+def smile(person):
+    print(f'EL payaso {person['name']} hizo reir a los ninos')
+
+payaso = {
+    'name': 'Carlos', 
+    'role': 'admin'
+}
+
+nino = {
+    'name': 'Ana', 
+    'role': 'employee'
+}

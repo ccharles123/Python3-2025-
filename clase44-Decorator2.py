@@ -29,9 +29,12 @@ employee = {
 
 def check_action(func):
     def wrapper(employee):
-        #COmprobar si el empledo tiene rol 'orador'.
+        #Comprobar si el empledo tiene rol 'orador'.
         if employee.get('role') == 'orador':
-            return func(employee)
+            if employee.get('delete'):
+                return func(employee)
+            else:
+                print('Es orador pero aun no tiene el permiso de hablar')
         else:
             print('ACCESO DENEGADO. Solo los oradores pueden hablar.')
     return wrapper
@@ -42,12 +45,14 @@ def log_employee_acction(employee):
 
 orador = {
     'name': 'Carlos', 
-    'role': 'orador'
+    'role': 'orador',
+    'delete': False
 }
 
 employee = {
     'name': 'Ana', 
-    'role': 'employee'
+    'role': 'employee',
+    'delete': 'yes'
 }
 
 log_employee_acction(orador)
